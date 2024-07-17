@@ -3,7 +3,7 @@ const callAPi = async () =>{
   const res = await fetch("https://my-json-server.typicode.com/FreSauce/json-ipl/data")
   const response=await res.json();
   console.log(response)
-  response.sort((a, b) => a.NRR - b.NRR);
+  response.sort((a, b) => b.NRR - a.NRR);
   response.map((item)=>{
     const tr =document.createElement('tr');
     tr.innerHTML = `<td>${item.No}</td>
