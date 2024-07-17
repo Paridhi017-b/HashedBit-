@@ -1,0 +1,29 @@
+.container{
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
+}
+h1{
+    font-size: 50px;
+}
+table,tr,td{
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+thead>tr>td{
+    background-color: rgb(88, 88, 92);
+    color:aliceblue;
+    font-size: 35px;
+    padding: 15px;
+}
+tr:nth-child(even) {
+    background-color: #cec8c8; /* Light grey for even rows */
+    font-size: 30px;
+  }
+  tr:nth-child(odd) {
+    background-color: #e7e2e2; /* Light grey for even rows */
+    font-size: 30px;
+  }
+  
+
+
