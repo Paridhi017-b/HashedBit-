@@ -1,0 +1,17 @@
+.container{
+   text-align: center;
+   border: 2px solid black;
+   font-size: 40px;
+}
+h1{
+    font-size: 50px;
+}
+.container>input{
+    font-size: 30px;
+    padding: 3px;
+}
+.container>button{
+    font-size: 30px;
+    margin: 10px;
+    
+}
