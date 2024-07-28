@@ -1,0 +1,69 @@
+h1 {
+  text-align: center;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.movie-item {
+  overflow: hidden;
+  text-align: center;
+}
+
+.movie-item img {
+  width: 400px;
+  height: 400px;
+}
+
+.movie-details {
+  text-align: center;
+  font-size: 25px;
+}
+
+.movie-details a {
+  font-size: 30px;
+  border: 2px solid rgb(14, 14, 14);
+  border-collapse: collapse;
+  background-color: rgb(96, 97, 99);
+  color: white;
+}
+
+form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(14, 14, 14);
+  width: 300px;
+  padding: 20px;
+  gap: 10px;
+  
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px 0;
+  border: 1px solid #0a0909;
+  border-radius: 4px;
+
+}
+form button {
+  padding: 8px;
+  margin: 5px 0 10px 0;
+  border: 1px solid #285da3;
+  border-radius: 4px;
+  background-color:#285da3 ;
+
+}
+.confirmation{
+  padding: 10px;
+ border-radius: 20px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ text-align: center;
+ border: 1px solid #b6b6b6;
+ width: auto;
+}
